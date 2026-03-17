@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "productName": "실리프랑 실리콘찜기 2단 전자레인지 야채 만두 찜기 무연마제 버터베이지 +계량스푼",
+    "discountRate": 33,
+    "price": 54900,
+    "reviewText": "고기야채찜, 만두 등 찜기 사용할 일이 많은데 전자레인지로 쉽게 사용할 수 있어서 좋고 촉촉하게 잘 쪄져요! 1단 2단 모두 사용 가능해서 더 좋아요ㅎㅎ",
+    "reviewerId": "kdh9*****",
+    "reviewDate": "2026.02.16.",
+    "main_img": "img/customer/review_detail_01.jpg"
+  },
+  {
+    "id": 2,
+    "productName": "실리프랑 촉촉 전자레인지 냄비 실리콘 이중밀폐 멀티찜기 + 에프용기 에어프라이어 전자레인지",
+    "discountRate": 39,
+    "price": 52900,
+    "reviewText": "아주 좋습니다. 부모님도 사드려야겠어요",
+    "reviewerId": "ocar******",
+    "reviewDate": "2026.03.10.",
+    "main_img": "img/customer/review_detail_02.jpg"
+  }
+]

@@ -1,0 +1,78 @@
+.footer-container {
+  padding: 30px 20px;
+  background-color: #fff;
+  color: #666;
+  font-size: 12px;
+  line-height: 1.6;
+  border-top: 1px solid #eee;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 상단 안내 바 */
+.notice-bar {
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+.btn-verify {
+  text-decoration: none;
+  color: #007bc3;
+  border: 1px solid #ddd;
+  padding: 1px 4px;
+  font-size: 11px;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 15px 0;
+}
+
+/* 네비게이션 링크 */
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* 사업자 정보 본문 레이아웃 */
+.footer-body {
+  display: flex;
+  justify-content: bwtween;
+  gap: 40px;
+  margin-bottom: 25px;
+}
+
+.info-group h3 {
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.info-group address {
+  font-style: normal;
+}
+
+.link-qna {
+  display: inline-block;
+  margin-top: 5px;
+  color: #888;
+  text-decoration: underline;
+}
+
+/* 하단 면책 공고 */
+.footer-bottom {
+  padding-top: 15px;
+  border-top: 1px solid #f4f4f4;
+  font-size: 11px;
+  color: #999;
+}

@@ -1,0 +1,27 @@
+{
+  "store_info": {
+    "brand_name": "SILIFRAN",
+    "tagline": "건강의 시작은 매일 사용하는 주방 용품에서부터, 실리프랑",
+    "customer_interest_count": 9764,
+    "store_grade": "빅파워",
+    "visit_stats": {
+      "today": 1149,
+      "total": 639097
+    },
+    "search_placeholder": "검색어를 입력해주세요",
+    "notification_button_text": "알림받기"
+  },
+  "navigation_menu": [
+    { "id": 1, "label": "쇼핑LIVE", "icon": "live_badge", "has_dropdown": false },
+    { "id": 2, "label": "베스트", "icon": null, "has_dropdown": false },
+    { "id": 3, "label": "슈퍼적립", "icon": "star", "has_dropdown": false },
+    { "id": 4, "label": "N배송", "icon": "rocket", "has_dropdown": false },
+    { "id": 5, "label": "신제품", "icon": "star", "has_dropdown": false },
+    { "id": 6, "label": "라이트잇저당밥솥", "icon": "rice_bowl", "has_dropdown": false },
+    { "id": 7, "label": "찜기류", "icon": "pot", "has_dropdown": true },
+    { "id": 8, "label": "주방소품", "icon": "utensils", "has_dropdown": true },
+    { "id": 9, "label": "전체상품", "icon": null, "has_dropdown": false },
+    { "id": 10, "label": "공지사항", "icon": null, "has_dropdown": false },
+    { "id": 11, "label": "더보기", "icon": null, "has_dropdown": true }
+  ]
+}

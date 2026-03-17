@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "productName": "실리프랑 주방장갑 마그넷 실리콘 냄비손잡이 오븐 전자레인지 뚝배기",
+    "originalPrice": 14900,
+    "discountRate": 33,
+    "discountedPrice": 9900,
+    "main_img": "img/products/recommend_04.jpg",
+    "rating": 4.87,
+    "reviewCount": 157
+  },
+  {
+    "id": 2,
+    "productName": "실리프랑 멀티쿠커 촉촉 전자레인지 찜기 스팀 냄비 버터베이지 +계량스푼",
+    "originalPrice": 69900,
+    "discountRate": 40,
+    "discountedPrice": 41900,
+    "main_img": "img/products/recommend_05.jpg",
+    "rating": 4.79,
+    "reviewCount": 1487
+  },
+  {
+    "id": 3,
+    "productName": "실리프랑 실리콘주걱 스탠드 밥주걱 미니 스푼 볶음 스파출라 조리도구",
+    "originalPrice": 16900,
+    "discountRate": 35,
+    "discountedPrice": 10900,
+    "main_img": "img/products/recommend_02.jpg",
+    "rating": 4.83,
+    "reviewCount": 137
+  },
+  {
+    "id": 4,
+    "productName": "실리프랑 에어프라이어용기 실리콘 오븐용그릇 오븐트레이",
+    "originalPrice": 26900,
+    "discountRate": 29,
+    "discountedPrice": 18900,
+    "main_img": "img/products/recommend_03.jpg",
+    "rating": 4.83,
+    "reviewCount": 274
+  },
+  {
+    "id": 5,
+    "productName": "실리프랑 실리콘주걱 스탠드 밥주걱 미니 스푼 볶음 스파출라 조리도구",
+    "originalPrice": 16900,
+    "discountRate": 35,
+    "discountedPrice": 10900,
+    "main_img": "img/products/recommend_01.jpg",
+    "rating": 4.74,
+    "reviewCount": 31
+  }
+]

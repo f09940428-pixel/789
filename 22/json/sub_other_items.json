@@ -1,0 +1,37 @@
+[
+  {
+    "id": "submenu_01",
+    "name": "실리프랑 실리콘찜기 2단 전자레인지 야채 만두 찜기 무연마제 모카...",
+    "discountedPrice": 54900,
+    "originalPrice": 82900,
+    "imgUrl": "img/submenu/submenu01.jpg"
+  },
+  {
+    "id": "submenu_02",
+    "name": "실리프랑 촉촉 전자레인지 실리콘 멀티찜기 이중밀폐 보관 냄비 버...",
+    "discountedPrice": 75800,
+    "originalPrice": 119800,
+    "imgUrl": "img/submenu/submenu02.jpg"
+  },
+  {
+    "id": "submenu_03",
+    "name": "실리프랑 촉촉 실리콘 전자레인지 멀티 찜기 이중밀폐 계란찜 전자...",
+    "discountedPrice": 39800,
+    "originalPrice": 59900,
+    "imgUrl": "img/submenu/submenu03.jpg"
+  },
+  {
+    "id": "submenu_04",
+    "name": "실리프랑 실리콘 찜기 촉촉 멀티쿠커+생선찜기 찜발 고구마 감자 ...",
+    "discountedPrice": 69900,
+    "originalPrice": 119800,
+    "imgUrl": "img/submenu/submenu04.jpg"
+  },
+  {
+    "id": "submenu_05",
+    "name": "실리프랑 생선찜기 특허 전자레인지용기 실리콘찜기 전자렌지 미...",
+    "discountedPrice": 34900,
+    "originalPrice": 49900,
+    "imgUrl": "img/submenu/submenu05.jpg"
+  }
+]

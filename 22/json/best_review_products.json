@@ -1,0 +1,40 @@
+[{
+    "id": 1,
+    "productName": "실리프란 실리콘 찜기 촉촉 멀티쿠커 + 에어프라이어",
+    "discountRate": 42,
+    "price": 55900,
+    "reviewText": "에어프라이어랑 전자레인지 사용할때 안심하고 편하게 쓰려고 샀어요",
+    "reviewerId": "yj*****",
+    "reviewDate": "2026.03.10.",
+    "main_img": "img/review/review_04.jpg"
+  },
+  {
+    "id": 2,
+    "productName": "실리프란 주방장갑 마그넷 실리콘 냄비손잡이",
+    "discountRate": 33,
+    "price": 9900,
+    "reviewText": "디자인이 메바슬로 수준이예요. 너무 깔끔하고 예쁘네요. 부피 크고 디자인 구리구리한 오븐 ...",
+    "reviewerId": "forf***",
+    "reviewDate": "2026.02.24.",
+    "main_img": "img/review/review_02.jpg"
+  },
+  {
+    "id": 3,
+    "productName": "실리프란 에어프라이어용기 실리콘 오븐",
+    "discountRate": 29,
+    "price": 18900,
+    "reviewText": "생각했던 것보다 좀 작긴 하지만 바닥면 처지지 않게 증기 되어있는것 맘에 듭니다. 광파 오븐...",
+    "reviewerId": "mlrh****",
+    "reviewDate": "2026.03.03.",
+    "main_img": "img/review/review_01.jpg"
+  },
+  {
+    "id": 4,
+    "productName": "실리프란 촉촉 실리콘 전자레인지 멀티",
+    "discountRate": 33,
+    "price": 39800,
+    "reviewText": "채소찜 해먹으려고 샀는데 1인용 용량으로 딱 좋습니다.",
+    "reviewerId": "leos*****",
+    "reviewDate": "2026.03.04",
+    "main_img": "img/review/review_03.jpg"
+  }]

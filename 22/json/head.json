@@ -1,0 +1,17 @@
+{
+  "bestProducts": [
+    {
+      "id": 1,
+      "name": "실리프란 세라믹 냄비 세트",
+      "price": 128000,
+      "image": "img/product1.jpg"
+    }
+  ],
+  "reviews": [
+    {
+      "user": "김**",
+      "content": "디자인도 예쁘고 건강해지는 기분이에요!",
+      "rating": 5
+    }
+  ]
+}

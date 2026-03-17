@@ -1,0 +1,37 @@
+{
+  "safety_notice": {
+    "type": "warning",
+    "icon_type": "exclamation_circle",
+    "message": {
+      "text": "판매자가 타 사이트 안내 및 현금 결제, 개인정보 유도 시 결제/입력하지 마시고 즉시 고객센터로 신고해주세요.",
+      "segments": [
+        {
+          "content": "판매자가 타 사이트 안내 및 현금 결제, 개인정보 유도 시 ",
+          "style": "normal"
+        },
+        {
+          "content": "결제/입력하지 마시고",
+          "style": "emphasis",
+          "color": "#D32F2F"
+        },
+        {
+          "content": " 즉시 ",
+          "style": "normal"
+        },
+        {
+          "content": "고객센터로 신고",
+          "style": "link",
+          "url": "/customer-service/report"
+        },
+        {
+          "content": "해주세요.",
+          "style": "normal"
+        }
+      ]
+    },
+    "styling": {
+      "background_color": "#FFF5F5",
+      "border_color": "#FFDEDE"
+    }
+  }
+}

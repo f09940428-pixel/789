@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[SUB] Silifran - 상품 상세 정보</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sub_style.css">
+    <link rel="stylesheet" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+</head>
+<body>
+<header class="sub-main-header">
+    <div class="sub-top-bar">
+        <div class="sub-inner">
+            <div class="sub-top-left">
+                <span class="sub-naver-logo">NAVER</span>
+                <span class="sub-store-logo">N+ 스토어</span>
+            </div>
+            <div class="sub-top-right">
+                <button class="sub-btn-login">로그인</button>
+                <span class="sub-icon-grid">⠿</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="sub-header-middle">
+        <div class="sub-inner">
+            <div class="sub-brand-section">
+                <div class="sub-brand-logo-circle">
+                    <img src="img/logo.jpg" alt="SILIFRAN">
+                </div>
+                <div class="sub-brand-info">
+                    <p class="sub-tagline">건강의 시작은 매일 사용하는 주방 용품에서부터, 실리프랑 | <span class="sub-interest">관심고객수 9,764 ⓘ</span></p>
+                </div>
+            </div>
+            <div class="sub-search-box">
+                <input type="text" placeholder="검색어를 입력해주세요">
+                <button class="sub-btn-search">🔍</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="sub-header-main">
+        <div class="sub-inner">
+            <button class="sub-btn-notify">🔔 알림받기</button>
+            <h1 class="sub-main-logo-wrap">
+                <img src="img/logo.jpg" alt="SILIFRAN" class="sub-main-logo-img">
+            </h1>
+            <div class="sub-store-stats">
+                <span class="sub-grade">스토어등급 <b>⭐ 빅파워</b> ⓘ</span>
+                <div class="sub-visitor-box">
+                    오늘 <span class="sub-count">1,149</span> • 전체 <span class="sub-count">639,097</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="sub-main-nav">
+        <div class="sub-inner">
+            <ul id="sub-nav-list" class="sub-nav-list">
+                <li class="sub-nav-item active">쇼핑LIVE</li>
+                <li class="sub-nav-item">베스트</li>
+                <li class="sub-nav-item">⭐슈퍼적립</li>
+                <li class="sub-nav-item">N배송🚀</li>
+                <li class="sub-nav-item">⭐신제품</li>
+                <li class="sub-nav-item">라이트잇저당밥솥🍚</li>
+                <li class="sub-nav-item has-drop">🥘찜기류</li>
+                <li class="sub-nav-item has-drop">🍽️주방소품</li>
+                <li class="sub-nav-item">전체상품</li>
+                <li class="sub-nav-item">공지사항</li>
+                <li class="sub-nav-item has-drop">더보기</li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <main class="content-wrapper sub-page-wrap">
+        <section id="details" class="detail-container">
+            <div class="gallery-area">
+                <div class="main-img-box"><img id="main-display-img" src="" alt="메인"></div>
+                <div id="sub-thumb-list" class="thumb-list"></div>
+            </div>
+
+            <div class="info-area">
+                <div class="store-badge">N+ 스토어 알림 받고 혜택 받아보세요! <span class="alarm-link">알림받기 ></span></div>
+                <h2 id="sub-product-name" class="detail-title">로딩 중...</h2>
+
+                <div class="price-row-v2">
+                    <div class="discount-part"><span id="sub-discount" class="red-percent"></span></div>
+                    <div class="price-part">
+                        <div class="price-line">
+                            <del id="sub-origin-price" class="txt-old"></del>
+                            <strong id="sub-price" class="txt-new"></strong>
+                        </div>
+                        <div class="ship-line">무료배송 <span class="icon-truck">🚚</span></div>
+                    </div>
+                </div>
+
+                <div class="card-benefit-box">
+                    <span class="icon-card">💳</span>
+                    <span class="benefit-txt">라인프렌즈 카드 최대 838원 추가 적립(2%) ></span>
+                </div>
+
+                <div class="benefit-box">
+                    <div class="benefit-header">실리프랑 고객을 위한 혜택</div>
+                    <div class="point-summary"><span>최대 적립 포인트</span><strong id="max-point"></strong></div>
+                    <ul class="point-list" id="sub-point-list"></ul>
+                </div>
+
+                <div class="purchase-section">
+                    <div class="membership-promo-bar">
+                        <span class="n-logo">N+</span> 멤버십은 오늘 구매하면, <strong>내일 무료 배송</strong> <span>&gt;</span>
+                    </div>
+                    <div class="delivery-row">
+                        <span class="label">배송일</span>
+                        <div class="content"><span class="arrival-badge">N 내일배송</span> <strong id="arrival-date"></strong></div>
+                    </div>
+                    <div class="option-selector">
+                        <select id="product-option"><option value="">옵션 선택</option></select>
+                    </div>
+                    <div class="total-price-area">
+                        <div class="total-label">총 상품 금액</div>
+                        <div class="total-val-group"><span class="total-qty">총 수량 0개</span><span id="final-price" class="total-price">0원</span></div>
+                    </div>
+                    <div class="main-button-group">
+                        <button class="btn-gift">🎁 선물하기</button>
+                        <button class="btn-buy">N 구매하기</button>
+                    </div>
+                    <div class="sub-button-group">
+                        <button class="btn-action">💬 톡톡문의</button>
+                        <button class="btn-action">♡ 찜하기</button>
+                        <button class="btn-action">🛒 장바구니</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="reviews" class="sub-review-section">
+            <div class="review-header">
+                <h3>포토/동영상 <span id="total-review-count" class="count-num"></span></h3>
+                <div class="header-right">
+                    <span class="all-view">전체보기 ></span>
+                    <span class="page-info"><strong>1</strong>/10</span>
+                    <div class="nav-btns">
+                        <button class="btn-page">&lt;</button>
+                        <button class="btn-page">&gt;</button>
+                    </div>
+                </div>
+            </div>
+            <div id="sub-review-list" class="sub-review-container"></div>
+        </section>
+
+        <section id="sub-live-section" class="sub-live-section"></section>
+
+        <section class="other-configs-section">
+            <div class="section-title-box">
+                <h3 class="section-main-title">
+                    <span class="brown-txt">다른 구성</span> <span class="black-txt">골라 담아 구매해 보세요</span>
+                </h3>
+            </div>
+            <div id="other-items-list" class="other-items-grid"></div>
+        </section>
+
+        <section class="product-tab-section">
+            <div class="tab-inner">
+                <ul id="sub-tabs-list" class="tab-menu-list"></ul>
+            </div>
+        </section>
+
+        <section class="sub-safety-notice">
+    <div class="notice-inner">
+        <span class="notice-icon">!</span>
+        <p class="notice-text">
+            판매자가 타 사이트 안내 및 현금 결제, 개인정보 유도 시 
+            <span class="high-light">결제/입력하지 마시고</span> 즉시 
+            <a href="#" class="report-link">고객센터로 신고</a>해주세요.
+        </p>
+    </div>
+</section>
+
+<section class="sub-specs-section">
+    <div class="sub-specs-header">
+        <h3 class="sub-specs-title">상품정보</h3>
+        <button class="sub-btn-report">신고하기</button>
+    </div>
+
+    <div class="sub-specs-table">
+        <div class="sub-specs-row">
+            <div class="sub-spec-item">
+                <span class="sub-label">상품번호</span>
+                <span class="sub-value" id="sub-spec-id">11311549661</span>
+            </div>
+            <div class="sub-spec-item">
+                <span class="sub-label">상품상태</span>
+                <span class="sub-value" id="sub-spec-status">신상품</span>
+            </div>
+        </div>
+
+        <div class="sub-specs-row">
+            <div class="sub-spec-item">
+                <span class="sub-label">브랜드</span>
+                <span class="sub-value" id="sub-spec-brand">실리프랑</span>
+            </div>
+            <div class="sub-spec-item">
+                <span class="sub-label">모델명</span>
+                <span class="sub-value" id="sub-spec-model">실리프랑 멀티쿠커 촉촉 전자레인지 찜기 스팀 냄비 버터 베이지</span>
+            </div>
+        </div>
+
+        <div class="sub-specs-row single">
+            <div class="sub-spec-item">
+                <span class="sub-label">원산지</span>
+                <span class="sub-value" id="sub-spec-origin">상세설명에 표시</span>
+            </div>
+        </div>
+
+        <div class="sub-specs-notice">
+            <span class="sub-icon-info">ⓘ</span> 
+            상품정보 관련 문의사항은 <a href="#qna" class="sub-link-qna">Q&A</a>에 남겨주세요.
+        </div>
+
+        <div class="sub-specs-row">
+            <div class="sub-spec-item">
+                <span class="sub-label">소재</span>
+                <span class="sub-value" id="sub-spec-material">실리콘</span>
+            </div>
+            <div class="sub-spec-item">
+                <span class="sub-label">특징</span>
+                <span class="sub-value" id="sub-spec-feature">식기세척기사용가능, 용량눈금, 스팀홀</span>
+            </div>
+        </div>
+
+        <div class="sub-specs-row single">
+            <div class="sub-spec-item">
+                <span class="sub-label">단수</span>
+                <span class="sub-value" id="sub-spec-step">1단</span>
+            </div>
+        </div>
+
+        <div class="sub-specs-row single">
+            <div class="sub-spec-item">
+                <span class="sub-label">영수증발급</span>
+                <span class="sub-value" id="sub-spec-receipt">신용카드전표, 현금영수증발급</span>
+            </div>
+        </div>
+
+        <div class="sub-specs-row single">
+            <div class="sub-spec-item">
+                <span class="sub-label">A/S 안내</span>
+                <span class="sub-value">
+                    <button class="sub-btn-info-small">상세정보 확인</button>
+                </span>
+            </div>
+        </div>
+
+        <div class="sub-specs-row single">
+            <div class="sub-spec-item">
+                <span class="sub-label">반품안심케어 가입 안내</span>
+                <span class="sub-value">
+                    반품안심케어에 가입된 상품입니다. 반품/교환 시 <span class="sub-txt-red">무료교환/무료반품 제공</span>
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="details" class="detail-container-full">
+    <div class="sub-detail-header">
+        <h4>상품 상세 정보</h4>
+    </div>
+    <div id="sub-detail-images-wrap" class="sub-detail-images-wrap"></div>
+</section>
+
+    </main>
+
+    <script src="js/sub_script.js"></script>
+
+    <footer class="footer-container">
+  <div class="footer-top">
+    <div class="notice-bar">
+      <span class="icon-info">!</span>
+      반품 배송비, 반품 배송주소 등은 해당 상품 페이지 내 안내를 참고해주세요.
+      <strong>주식회사 메이커홀 이창민</strong> <a href="#" class="btn-verify">인증</a>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <nav class="footer-nav">
+    <ul>
+      <li><a href="#">네이버 약관</a></li>
+      <li><a href="#">네이버페이 이용약관</a></li>
+      <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+      <li><a href="#">책임의 한계와 법적고지</a></li>
+      <li><a href="#">고객센터</a></li>
+    </ul>
+  </nav>
+
+  <div class="footer-body">
+    <div class="info-group">
+      <h3>네이버(주)</h3>
+      <address>
+        <p>사업자등록번호 220-81-62517 | 통신판매업신고번호 2006-경기성남-0692호</p>
+        <p>대표이사 최수연 | 경기도 성남시 분당구 정자일로 95, NAVER 1784, 13561</p>
+        <p>전화 1588-3819 | 이메일 helpcustomer@naver.com</p>
+      </address>
+    </div>
+
+    <div class="info-group">
+      <h3>고객센터</h3>
+      <p>페이&쇼핑 구매자 고객센터 <strong>1588-3819</strong></p>
+      <p>쇼핑 판매자 고객센터 <strong>1599-1598</strong></p>
+      <a href="#" class="link-qna">1:1 문의 바로가기</a>
+    </div>
+
+    <div class="info-group">
+      <h3>전자금융거래 분쟁처리</h3>
+      <p>전화 1588-3819</p>
+      <a href="#" class="link-qna">1:1 문의 바로가기</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>네이버(주)는 통신판매중개자이며, 통신판매의 당사자가 아닙니다. 상품, 상품정보, 거래에 관한 의무와 책임은 판매자에게 있습니다. <a href="#">자세히보기 ></a></p>
+  </div>
+</footer>
+</body>
+</html>

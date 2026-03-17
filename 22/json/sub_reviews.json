@@ -1,0 +1,47 @@
+{
+"totalReviewCount": 211,
+"currentPage": 1,
+"totalPage": 10,
+"reviews": [
+    {
+    "id": 1,
+    "rating": 5,
+    "userId": "kdh9*****",
+    "date": "2026.02.16.",
+    "option": "[N배송]2단찜기 버터베이지+계...",
+    "content": "고기야채찜, 만두 등 찜기 사용할 일이 많은데 전자레인지로 쉽게 사용할 수 있어서 좋고 촉촉하게 잘 쪄져요! 1단 2단 모두 사용 가능해서 더 좋...",
+    "reviewImage": "img/subreview/sub_review_01.jpg",
+    "imageCount": 4
+    },
+    {
+    "id": 2,
+    "rating": 5,
+    "userId": "hug3***",
+    "date": "2026.02.25.",
+    "option": "[N배송]2단찜기 버터베이지+계량...",
+    "content": "처음 사용이라 시간과 양조절을 못했지만 구매하길 잘한것같아요. 맘에 들어요. 다음번에 아주 잘 사용할것 같습니다",
+    "reviewImage": "img/subreview/sub_review_02.jpg",
+    "imageCount": 2
+    },
+    {
+    "id": 3,
+    "rating": 5,
+    "userId": "csy8*****",
+    "date": "2026.03.10.",
+    "option": "[N배송]2단찜기 버터베이지+계...",
+    "content": "4인기준 만두 쪄 먹기에는 좀 작은듯 한데 간단하게 전자레인지에 돌려 먹기 좋아요.",
+    "reviewImage": "img/subreview/sub_review_03.jpg",
+    "imageCount": 1
+    },
+    {
+    "id": 4,
+    "rating": 5,
+    "userId": "cy****",
+    "date": "2026.02.22.",
+    "option": "[N배송]2단찜기 모카베이지+계량스푼",
+    "content": "아기 이유식 시작하려고 구매했어요! 이유식 대부분 음식이 쪄야하니 전자레인지로 편하게 하려고 구매했는데 아주 편하네요! 용량도 넉넉해...",
+    "reviewImage": "img/subreview/sub_review_04.jpg",
+    "imageCount": 1
+    }
+]
+}

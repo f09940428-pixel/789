@@ -1,0 +1,464 @@
+/* 기본 레이아웃 */
+.sub-page-wrap { padding: 40px 0; }
+.detail-container { display: flex; gap: 40px; align-items: flex-start; margin-bottom: 80px; }
+
+/* 갤러리 영역 */
+.gallery-area { flex: 0 0 530px; }
+.main-img-box { width: 100%; aspect-ratio: 1/1; border-radius: 8px; overflow: hidden; border: 1px solid #eee; margin-bottom: 15px; }
+.main-img-box img { width: 100%; height: 100%; object-fit: cover; }
+
+.thumb-list { display: flex; gap: 8px; flex-wrap: wrap; }
+.thumb-item { width: 68px; height: 68px; border-radius: 4px; overflow: hidden; border: 2px solid transparent; cursor: pointer; background: #f8f8f8; }
+/* ★ 갤러리 썸네일: 잘리지 않고 전체가 보이도록 설정 ★ */
+.thumb-item img { width: 100%; height: 100%; object-fit: contain; }
+.thumb-item.active { border-color: #333; }
+
+/* 가격 및 버튼 */
+.info-area { flex: 1; }
+.price-row-v2 { display: flex; justify-content: space-between; align-items: flex-start; width: 100%; margin-bottom: 25px; }
+.red-percent { font-size: 48px; color: #f43142; font-weight: 300; }
+.price-part { display: flex; flex-direction: column; align-items: flex-end; text-align: right; }
+.txt-new { font-size: 32px; font-weight: 800; color: #f43142; }
+
+/* 버튼 크기 강제 고정 */
+.main-button-group { display: flex !important; gap: 10px !important; height: 60px; margin-bottom: 10px; }
+.btn-gift, .btn-buy { flex: 1 !important; height: 100% !important; font-size: 16px !important; font-weight: 700 !important; border-radius: 4px; cursor: pointer; }
+.btn-buy { background: #00c73c; color: #fff; border: none; }
+.btn-gift { border: 1px solid #00c73c; color: #00c73c; background: #fff; }
+
+/* ★ 리뷰 섹션: 타이틀+네비 한 줄 정렬 & 정사각형 사진 ★ */
+.sub-review-section { border-top: 2px solid #eee; padding-top: 40px; margin-top: 40px; }
+.review-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #f4f4f4; padding-bottom: 15px; margin-bottom: 25px; }
+.header-right { display: flex; align-items: center; gap: 15px; color: #888; font-size: 14px; }
+.btn-page { border: 1px solid #ddd; background: #fff; padding: 2px 8px; cursor: pointer; font-size: 12px; }
+
+.sub-review-container { display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px; }
+.sub-review-item { display: flex; justify-content: space-between; padding-bottom: 25px; border-bottom: 1px solid #f4f4f4; }
+.review-text-content { flex: 1; padding-right: 15px; }
+
+/* 일정한 정사각형 리뷰 사진 */
+.review-img-thumb { width: 80px; height: 80px; flex-shrink: 0; border-radius: 4px; overflow: hidden; }
+.review-img-thumb img { width: 100%; height: 100%; object-fit: cover; }
+
+/* 라이브 배너 */
+.sub-live-section { width: 100%; margin: 40px 0; }
+.live-banner-box { display: flex; justify-content: center; align-items: center; gap: 15px; background: #f8f9fa; border: 1px solid #e1e1e1; padding: 15px 0; cursor: pointer; }
+.live-status-badge { background: #ff4d4d; color: #fff; padding: 2px 6px; border-radius: 3px; font-weight: 800; font-size: 11px; }
+.live-thumb-circle { width: 45px; height: 45px; border-radius: 50%; overflow: hidden; border: 1px solid #eee; }
+.live-thumb-circle img { width: 100%; height: 100%; object-fit: cover; }
+
+/* 다른 구성 (베이지 테마) */
+.other-configs-section { margin-top: 60px; padding: 40px 0; background-color: #fdfaf5; border-top: 1px solid #eee; }
+.brown-txt { color: #a67c52; }
+.black-txt { color: #000; }
+.other-items-grid { display: flex; gap: 15px; margin-top: 25px; }
+.other-item-card { flex: 0 0 calc(20% - 12px); background: #fff; border: 1px solid #e0d5c1; border-radius: 8px; overflow: hidden; }
+/* 탭 메뉴 섹션 */
+.product-tab-section {
+    width: 100%;
+    background-color: #f8f9fa; /* 기본 연한 배경 */
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #333;
+    position: sticky; /* 스크롤 시 상단 고정하고 싶다면 사용 */
+    top: 0;
+    z-index: 100;
+}
+
+.tab-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tab-menu-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tab-item {
+    flex: 1;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 15px;
+    color: #333;
+    cursor: pointer;
+    border-right: 1px solid #eee;
+    background-color: #f1f3f5;
+    transition: background 0.2s;
+}
+
+.tab-item:last-child {
+    border-right: none;
+}
+
+/* 활성화된 탭 스타일 (이미지의 상세정보 탭) */
+.tab-item.active {
+    background-color: #3f4150; /* 이미지의 어두운 남색 계열 */
+    color: #fff;
+    font-weight: bold;
+}
+
+.tab-count {
+    font-size: 13px;
+    margin-left: 4px;
+    opacity: 0.8;
+}
+
+/* 안전 거래 안내 배너 스타일 */
+.sub-safety-notice {
+    margin: 30px auto;
+    max-width: 1200px; /* 상세페이지 너비에 맞춤 */
+    padding: 20px;
+    background-color: #fffafa; /* 아주 연한 분홍 배경 */
+    border: 1px solid #ffdcdc; /* 연한 분홍 테두리 */
+    border-radius: 4px;
+    text-align: center;
+}
+
+.notice-inner {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* 빨간색 원형 아이콘 */
+.notice-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background-color: #db0000;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.notice-text {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* "결제/입력하지 마시고" 강조 */
+.high-light {
+    color: #db0000;
+    font-weight: 600;
+}
+
+/* "고객센터로 신고" 링크 */
+.report-link {
+    color: #333;
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.report-link:hover {
+    color: #000;
+}
+
+/* 상품정보 테이블 섹션 */
+.sub-specs-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    font-family: 'Pretendard', sans-serif;
+}
+
+.sub-specs-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.sub-specs-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+}
+
+.sub-btn-report {
+    background: #fff;
+    border: 1px solid #ddd;
+    color: #666;
+    padding: 3px 8px;
+    font-size: 12px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* 테이블 구조 */
+.sub-specs-table {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #eee;
+}
+
+.sub-specs-row {
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+
+.sub-spec-item {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.sub-label {
+    width: 150px;
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    font-size: 13px;
+    color: #555;
+    border-right: 1px solid #eee;
+}
+
+.sub-value {
+    flex: 1;
+    padding: 15px 20px;
+    font-size: 13px;
+    color: #333;
+}
+
+/* 안내 문구 바 */
+.sub-specs-notice {
+    padding: 12px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+    font-size: 12px;
+    color: #888;
+}
+
+.sub-icon-info {
+    color: #ccc;
+    margin-right: 5px;
+}
+
+.sub-link-qna {
+    color: #333;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* 강조 요소 */
+.sub-txt-red {
+    color: #f43142;
+}
+
+.sub-btn-info-small {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 4px 10px;
+    font-size: 12px;
+    color: #333;
+    cursor: pointer;
+}
+
+/* 상세정보 이미지 영역 */
+.detail-container-full {
+    width: 100%;
+    max-width: 1200px; /* 메인 너비와 맞춤 */
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.sub-detail-header {
+    padding: 20px 0;
+    border-bottom: 2px solid #333;
+    margin-bottom: 20px;
+}
+
+.sub-detail-header h4 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sub-detail-images-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* 세로로 나열 */
+    align-items: center;
+}
+
+.sub-detail-img {
+    width: 100%;       /* 컨테이너 너비에 맞춤 */
+    max-width: 860px;  /* 이미지 권장 최대 너비 (조절 가능) */
+    display: block;    /* 이미지 하단 미세 공백 제거 */
+    margin: 0 auto;
+}
+
+/* 헤더 공통 */
+.sub-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; position: relative; }
+
+/* 1. 최상단 바 */
+.sub-top-bar { background: #e5e0d8; height: 32px; border-bottom: 1px solid #d8d2c8; }
+.sub-naver-logo { font-weight: 900; color: #fff; margin-right: 10px; font-size: 14px; }
+.sub-store-logo { color: #888; font-size: 12px; }
+.sub-btn-login { background: none; border: 1px solid #ccc; padding: 2px 8px; font-size: 11px; cursor: pointer; background: #fff; }
+
+/* 2. 중간 헤더 */
+.sub-header-middle { background: #efebe5; padding: 15px 0; }
+.sub-brand-section { display: flex; align-items: center; gap: 15px; }
+.sub-brand-logo-circle { width: 50px; height: 50px; border-radius: 50%; overflow: hidden; background: #fff; border: 1px solid #eee; }
+.sub-brand-logo-circle img { width: 100%; height: 100%; object-fit: contain; }
+.sub-tagline { font-size: 13px; color: #666; }
+.sub-search-box { position: relative; width: 300px; }
+.sub-search-box input { width: 100%; padding: 8px 15px; border: 1px solid #ddd; border-radius: 20px; font-size: 13px; }
+.sub-btn-search { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: none; border: none; cursor: pointer; }
+
+/* 3. 메인 로고 영역 */
+.sub-header-main { background: #ffffff; padding: 30px 0; }
+.sub-main-logo { font-family: 'Times New Roman', serif; font-size: 48px; letter-spacing: 5px; font-weight: 400; color: #000; }
+.sub-btn-notify { border: 1px solid #d8d2c8; background: #ffffff; padding: 10px 20px; font-size: 13px; color: #555; cursor: pointer; }
+.sub-store-stats { text-align: right; font-size: 12px; color: #777; }
+.sub-grade { font-size: 13px; color: #333; margin-bottom: 5px; display: block; }
+.sub-count { color: #333; font-weight: 600; }
+
+/* 4. 네비게이션 바 */
+.sub-main-nav { background: #fff; border-bottom: 1px solid #eee; position: sticky; top: 0; z-index: 1000; }
+.sub-nav-list { display: flex; list-style: none; width: 100%; padding: 0; margin: 0; }
+.sub-nav-item { padding: 15px 12px; font-size: 14px; font-weight: 500; cursor: pointer; color: #333; white-space: nowrap; }
+.sub-nav-item:hover { color: #a67c52; }
+.sub-nav-item.active { font-weight: 700; color: #000; border-bottom: 2px solid #000; }
+.sub-nav-item.has-drop::after { content: ' ⌵'; font-size: 10px; }
+
+/* ... 다른 스타일은 유지 ... */
+
+/* 3. [변경] 메인 로고 영역 스타일 */
+.sub-header-main { background: #efebe5; padding: 30px 0; }
+
+/* 로고를 감싸는 H1 */
+.sub-main-logo-wrap {
+    flex: 1;             /* 중앙 위치 확보 */
+    text-align: center;   /* 이미지 중앙 정렬 */
+    margin: 0;
+}
+
+/* [추가] 실제 로고 이미지 스타일 */
+.sub-main-logo-img {
+    max-height: 60px;     /* 헤더 높이에 맞춘 최대 높이 설정 */
+    width: auto;          /* 비율 유지 */
+    object-fit: contain;  /* 찌그러짐 방지 */
+    vertical-align: middle;
+}
+
+/* 이전 텍스트 전용 스타일 삭제됨 (font-family, font-size 등) */
+.sub-btn-notify { border: 1px solid #d8d2c8; background: #e8e2d9; padding: 10px 20px; font-size: 13px; color: #555; cursor: pointer; }
+.sub-store-stats { text-align: right; font-size: 12px; color: #777; flex: 0 0 200px; /* 고정 너비 할당 */ }
+.sub-grade { font-size: 13px; color: #333; margin-bottom: 5px; display: block; }
+.sub-count { color: #333; font-weight: 600; }
+
+/* ... 다른 스타일은 유지 ... */
+
+/* ... 다른 스타일은 유지 ... */
+
+/* 3. [변경] 메인 로고 영역 스타일 (흰 배경 적용) */
+.sub-header-main { 
+    background: #ffffff;  /* [변경] 베이지색(#efebe5) -> 흰색(#ffffff)으로 수정 */
+    padding: 30px 0;      /* 위아래 여백 유지 */
+}
+
+/* 로고를 감싸는 H1 */
+.sub-main-logo-wrap {
+    flex: 1;             /* 중앙 위치 확보 */
+    text-align: center;   /* 이미지 중앙 정렬 */
+    margin: 0;
+}
+
+/* 실제 로고 이미지 스타일 (이전과 동일) */
+.sub-main-logo-img {
+    max-height: 60px;     /* 헤더 높이에 맞춘 최대 높이 설정 */
+    width: auto;          /* 비율 유지 */
+    object-fit: contain;  /* 찌그러짐 방지 */
+    vertical-align: middle;
+}
+
+/* 스토어 통계 영역 (이전과 동일) */
+.sub-btn-notify { border: 1px solid #d8d2c8; background: #e8e2d9; padding: 10px 20px; font-size: 13px; color: #555; cursor: pointer; }
+.sub-store-stats { text-align: right; font-size: 12px; color: #777; flex: 0 0 200px; /* 고정 너비 할당 */ }
+.sub-grade { font-size: 13px; color: #333; margin-bottom: 5px; display: block; }
+.sub-count { color: #333; font-weight: 600; }
+
+/* ... 다른 스타일은 유지 ... */
+
+.footer-container {
+  padding: 30px 20px;
+  background-color: #fff;
+  color: #666;
+  font-size: 12px;
+  line-height: 1.6;
+  border-top: 1px solid #eee;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 상단 안내 바 */
+.notice-bar {
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+.btn-verify {
+  text-decoration: none;
+  color: #007bc3;
+  border: 1px solid #ddd;
+  padding: 1px 4px;
+  font-size: 11px;
+}
+
+.divider {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 15px 0;
+}
+
+/* 네비게이션 링크 */
+.footer-nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* 사업자 정보 본문 레이아웃 */
+.footer-body {
+  display: flex;
+  justify-content: bwtween;
+  gap: 40px;
+  margin-bottom: 25px;
+}
+
+.info-group h3 {
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.info-group address {
+  font-style: normal;
+}
+
+.link-qna {
+  display: inline-block;
+  margin-top: 5px;
+  color: #888;
+  text-decoration: underline;
+}
+
+/* 하단 면책 공고 */
+.footer-bottom {
+  padding-top: 15px;
+  border-top: 1px solid #f4f4f4;
+  font-size: 11px;
+  color: #999;
+}

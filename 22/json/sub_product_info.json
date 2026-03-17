@@ -1,0 +1,12 @@
+[
+  {
+    "id": "sub_01",
+    "productName": "실리프랑 멀티쿠커 촉촉 전자레인지 찜기 스팀 냄비 버터베이지 +계량스푼",
+    "originalPrice": 69900,
+    "discountRate": 40,
+    "discountedPrice": 41900,
+    "thumbnails": ["img/sub/sub01.jpg", "img/sub/sub02.jpg", "img/sub/sub03.jpg", "img/sub/sub04.jpg", "img/sub/sub05.jpg", "img/sub/sub06.jpg", "img/sub/sub07.jpg"],
+    "shipping": { "arrivalDate": "내일 3.13.(금) 도착 예정" },
+    "points": { "maxPoints": "12,368", "base": "419", "super": "1,257", "card": "2,933" }
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "id": "live_event_01",
+    "liveDate": "3월 23일",
+    "liveTime": "오전 11시",
+    "status": "LIVE",
+    "title": "3월 블루밍데이즈 2차",
+    "liveThumb": "img/sub/sub_live_thumb.jpg",
+    "linkUrl": "#"
+  }
+]

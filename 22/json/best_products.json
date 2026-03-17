@@ -1,0 +1,40 @@
+[{
+    "rank": 1,
+    "productName": "실리프란 저당밥솥 저당질 다이어트 전자레인지찜기 캠핑밥솥 자취생 밥통 버터옐로우",
+    "originalPrice": 99000,
+    "discountRate": 57,
+    "discountedPrice": 41900,
+    "main_img": "img/best/best_01.jpg",
+    "shippingInfo": "무료배송",
+    "tags": ["#다이어트음식", "#저탄수화물", "#저당요리음식"]
+  },
+  {
+    "rank": 2,
+    "productName": "실리프란 생선찜기 특허 전자레인지용기 실리콘찜기 전자레인지 미니플라스틱제로",
+    "originalPrice": 49900,
+    "discountRate": 30,
+    "discountedPrice": 34900,
+    "main_img": "img/best/best_04.jpg",
+    "shippingInfo": "무료배송",
+    "tags": ["#찜기추천", "#찜기한개", "#찜기실리콘", "#간편한"]
+  },
+  {
+    "rank": 3,
+    "productName": "실리프란 저당밥솥 저당질 다이어트 전자레인지찜기 캠핑밥솥 자취생 밥통 크림화이트",
+    "originalPrice": 99000,
+    "discountRate": 57,
+    "discountedPrice": 41900,
+    "main_img": "img/best/best_03.jpg",
+    "shippingInfo": "무료배송",
+    "tags": ["#다이어트음식", "#저탄수화물", "#저칼로리음식"]
+  },
+  {
+    "rank": 4,
+    "productName": "실리프란 주방장갑 마그넷 실리콘 냄비손잡이 오븐 전자레인지 뚝배기 버터옐로우",
+    "originalPrice": 14900,
+    "discountRate": 33,
+    "discountedPrice": 9900,
+    "main_img": "img/best/best_02.jpg",
+    "shippingInfo": "무료배송",
+    "tags": ["#실리콘장갑", "#오븐용장갑", "#실리콘오븐장갑"]
+  }]

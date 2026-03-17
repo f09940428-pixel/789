@@ -1,0 +1,42 @@
+[
+    {
+      "id": 1,
+      "bg_color": "#e5e5e5",
+      "main_img": "img/banner/banner_01.jpg"
+    },
+    {
+      "id": 2,
+      "bg_color": "#e5e5e5",
+      "main_img": "img/banner/banner_02.jpg"
+    },
+    {
+      "id": 3,
+      "bg_color": "#e5e5e5",
+      "main_img": "img/banner/banner_03.jpg"
+    },
+    {
+      "id": 4,
+      "bg_color": "#e5e5e5",
+      "main_img": "img/banner/banner_04.jpg"
+    },
+    {
+      "id": 5,
+      "bg_color": "#e5e5e5",
+      "main_img": "img/banner/banner_05.jpg"
+    },
+    {
+      "id": 6,
+      "bg_color": "#e5e5e5",
+      "main_img": "img/banner/banner_06.jpg"
+    },
+    {
+      "id": 7,
+      "bg_color": "#e5e5e5",
+      "main_img": "img/banner/banner_07.jpg"
+    },
+    {
+      "id": 8,
+      "bg_color": "#e5e5e5",
+      "main_img": "img/banner/banner_08.jpg"
+    }
+  ]

@@ -1,0 +1,58 @@
+[{
+    "id": 1,
+    "productName": "실리프랑 저당밥솥 저당질 다이어트 전자레인지찜기 캠핑밥솥 자취생 밥통",
+    "description": "라이트잇 저당밥을 이렇게 쓰세요!",
+    "originalPrice": 99000,
+    "discountRate": 57,
+    "discountedPrice": 41900,
+    "main_img": "img/all/all_product_02.jpg",
+    "isFreeShipping": true,
+    "rating": 4.82,
+    "reviewCount": 776
+  },
+  {
+    "id": 2,
+    "productName": "실리프랑 생선찜기 특허 전자레인지용기 실리콘찜기 전자레인지",
+    "description": "실리프랑 촉촉 생선찜기 실리프랑 촉촉 멀...",
+    "originalPrice": 49900,
+    "discountRate": 30,
+    "discountedPrice": 34900,
+    "main_img": "img/all/all_product_04.jpg",
+    "isFreeShipping": true,
+    "rating": 4.83,
+    "reviewCount": 2656
+  },
+  {
+    "id": 3,
+    "productName": "실리프랑 저당밥솥 저당질 다이어트 전자레인지찜기 캠핑밥솥 자취생 밥통",
+    "originalPrice": 99000,
+    "discountRate": 57,
+    "discountedPrice": 41900,
+    "main_img": "img/all/all_product_03.jpg",
+    "isFreeShipping": true,
+    "rating": 4.86,
+    "reviewCount": 98
+  },
+  {
+    "id": 4,
+    "productName": "실리프랑 마그넷 실리콘 냄비 집게 손잡이 주방 장갑 오븐 전자레인지",
+    "originalPrice": 14900,
+    "discountRate": 33,
+    "discountedPrice": 9900,
+    "main_img": "img/all/all_product_05.jpg",
+    "isFreeShipping": true,
+    "rating": 4.77,
+    "reviewCount": 121
+  },
+  {
+    "id": 5,
+    "productName": "실리프랑 실리콘찜기 2단 전자레인지 야채 만두 찜기 무연마제 버터베이지",
+    "description": "실리프랑 촉촉 2단찜기 마그넷 계량스푼",
+    "originalPrice": 82000,
+    "discountRate": 33,
+    "discountedPrice": 54900,
+    "main_img": "img/all/all_product_01.jpg",
+    "isFreeShipping": true,
+    "rating": 4.82,
+    "reviewCount": 342
+  }]
